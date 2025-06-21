@@ -1,0 +1,69 @@
+.view-school-page {
+  height: 100vh;
+  width: 100%;
+  background-image: url('C:\Users\anakh\OneDrive\Desktop\lms_new\frontend\src\pages\library-background.png'); 
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.school-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.school-header .logo {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.school-header h2 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.school-form {
+  background: rgb(0, 0, 0, 0.7);
+  padding: 40px 60px;
+  border-radius: 10px;
+  color: #fff;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 0 10px rgb(0 0 0 / 0.5);
+  text-align: center;
+}
+
+.school-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.school-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: none;
+  background: #d2da60;
+}
+
+.button-group button {
+  padding: 12px 30px;
+  margin: 10px;
+  background: #d2a46b;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.button-group button:hover {
+  background: #c49157;
+}
