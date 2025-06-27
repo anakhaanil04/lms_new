@@ -1,0 +1,93 @@
+.newstudent-page {
+  height: 100vh;
+  width: 100%;
+  background-image: url('./library-background.png'); /* update if needed */
+  background-size: cover;
+  background-position: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Header Style */
+.newstudent-header {
+  background-color: #d9ff41;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: fit-content;
+  border-bottom-right-radius: 30px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.newstudent-logo {
+  width: 60px;
+  height: auto;
+}
+
+.newstudent-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+/* Form Styling */
+.newstudent-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.newstudent-form {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 10px;
+  width: 60%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.newstudent-form label {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.newstudent-form input {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  background-color: #e8f25d;
+  font-size: 16px;
+}
+
+/* Button Group */
+.form-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.add-btn {
+  background-color: #a5d6f9;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  color: #000;
+}
+
+.back-btn {
+  background-color: #f8b8b8;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  color: #000;
+}
