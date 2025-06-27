@@ -1,0 +1,77 @@
+.book-details-container {
+  background-image: url('./library-background.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+  color: #000;
+}
+
+.book-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4ff41;
+  padding: 15px 30px;
+  flex-wrap: wrap;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo {
+  height: 50px;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #444;
+}
+
+.book-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding: 60px 20px;
+}
+
+.book-btn {
+  background-color: #e6fb61;
+  padding: 18px 30px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 12px;
+  cursor: pointer;
+  min-width: 220px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.book-btn:hover {
+  background-color: #d4ec48;
+  transform: scale(1.05);
+}
